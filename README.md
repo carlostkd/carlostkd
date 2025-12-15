@@ -22,6 +22,8 @@ is the superior git command (spoiler: it depends on the branch).
 
 TL;DR: I’m the guy who makes sure the right doors stay open, the wrong doors stay locked, and everyone enjoys a good pun along the way.
 
+Checkout the last Post From the blog:
+
 
 
 <!-- FEED_START -->
