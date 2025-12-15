@@ -53,7 +53,7 @@ def main() -> None:
 
         lines.append(f"- [{title}]({link}) — *{pub_pretty}*")
 
-    t
+    
     print("\n".join(lines))
 
 if __name__ == "__main__":
