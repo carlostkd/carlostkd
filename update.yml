@@ -1,0 +1,59 @@
+name: Update RSS Feed
+
+
+on:
+  schedule:
+    
+    - cron: '0 2 * * *'
+  workflow_dispatch:   
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write   
+
+    steps:
+      
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false   
+    
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+
+      
+      - name: Generate feed markdown
+        env:
+          FEED_URL: ${{ secrets.RSS_FEED_URL }}
+          MAX_ITEMS: 5                     
+        run: |
+          ./generate_feed.py "$FEED_URL" "$MAX_ITEMS" > feed.md
+
+      
+      - name: Insert feed into README
+        run: |
+         
+          head -n $(grep -n '<!-- FEED_START -->' README.md | cut -d: -f1) README.md > new_README.md
+          echo '<!-- FEED_START -->' >> new_README.md
+          cat feed.md >> new_README.md
+          echo '<!-- FEED_END -->' >> new_README.md
+         
+          tail -n +$(($(grep -n '<!-- FEED_END -->' README.md | cut -d: -f1)+1)) README.md >> new_README.md
+          mv new_README.md README.md
+
+      
+      - name: Commit changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          # If there are no diffs, exit early (prevents empty commits)
+          if git diff --quiet; then
+            echo "No changes detected – exiting."
+            exit 0
+          fi
+          git add README.md
+          git commit -m "🤖 Update RSS feed (auto)"
+          git push origin HEAD:${{ github.ref }}
