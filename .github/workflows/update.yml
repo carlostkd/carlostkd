@@ -30,7 +30,7 @@ jobs:
           FEED_URL: ${{ secrets.RSS_FEED_URL }}
           MAX_ITEMS: 5                     
         run: |
-          generate_feed.py "$FEED_URL" "$MAX_ITEMS" > feed.md
+          /generate_feed.py "$FEED_URL" "$MAX_ITEMS" > feed.md
 
       
       - name: Insert feed into README
