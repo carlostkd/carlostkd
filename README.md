@@ -25,7 +25,6 @@ TL;DR: I’m the guy who makes sure the right doors stay open, the wrong doors s
 
 
 <!-- FEED_START -->
-<!-- FEED_START -->
 - [Linux Tip](https://blog.carlostkd.ch/68072/linux-tip) — *Dec 12, 2025*
 - [New Feature: One-Tap .ICS Reminders!](https://blog.carlostkd.ch/67942/new-feature-one-tap-ics-reminders) — *Dec 10, 2025*
 - [Introducing Linux Tips](https://blog.carlostkd.ch/67889/introducing-linux-tips) — *Dec 08, 2025*
@@ -33,4 +32,4 @@ TL;DR: I’m the guy who makes sure the right doors stay open, the wrong doors s
 - [Introducing Phone Leaked Directory](https://blog.carlostkd.ch/65212/introducing-phone-leaked-directory) — *Sep 14, 2025*
 <!-- FEED_END -->
 
-*Last updated on {{date}}*
+*Last updated on Dec 15, 2025*
