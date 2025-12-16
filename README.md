@@ -33,5 +33,4 @@ Checkout the last Post From the blog:
 <!-- FEED_END -->
 
 
-Last update: never
 
