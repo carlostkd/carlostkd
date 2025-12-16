@@ -23,6 +23,9 @@ TL;DR: I’m the guy who makes sure the right doors stay open, the wrong doors s
 Checkout the last Post From the blog:
 
 
+<!-- FEED_HASH: none -->
+Last update: never
+
 
 <!-- FEED_START -->
 - [Leak Detector - Firefox Extension](https://blog.carlostkd.ch/68182/leak-detector-firefox-extension) — *Dec 16, 2025*
@@ -32,5 +35,4 @@ Checkout the last Post From the blog:
 - [Introducing AI-SANY](https://blog.carlostkd.ch/66191/introducing-ai-sany) — *Oct 14, 2025*
 <!-- FEED_END -->
 
-Last update: never
 
