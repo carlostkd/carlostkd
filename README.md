@@ -23,8 +23,8 @@ TL;DR: I’m the guy who makes sure the right doors stay open, the wrong doors s
 Checkout the last Post From the blog:
 
 
-<!-- FEED_HASH: none -->
-Last update: never
+<!-- FEED_HASH: bd8c6d02d4f59e1859c93a0452f374de17f7680df92fb3af213ec82ea3d3701f -->
+Last update: Dec 16, 2025
 
 
 <!-- FEED_START -->
