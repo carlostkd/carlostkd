@@ -12,9 +12,7 @@ Network Manager (I keep the cables untangled), Cybersecurity Analyst (I spot the
 
 Ethical Hacker (I break into systems so the owners don’t have to).
 
-I love turning “impossible” network topologies into elegant diagrams, turning “unknown” vulnerabilities into documented patches
-
-and turning coffee into code.
+I love turning “impossible” network topologies into elegant diagrams, turning “unknown” vulnerabilities into documented patches and turning coffee into code.
 
 Outside the office you’ll find me experimenting with IoT gadgets, contributing to bug bounty programs, or debating whether “push” or “pull” 
 
