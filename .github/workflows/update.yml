@@ -1,43 +1,43 @@
 name: Update RSS Feed
+
 on:
   schedule:
     - cron: '0 2 * * *'
   workflow_dispatch:
+
 jobs:
   build:
     runs-on: ubuntu-latest
     permissions:
       contents: write
+
     steps:
       - uses: actions/checkout@v4
-      - name: Set up Python
-        uses: actions/setup-python@v5
+
+      - uses: actions/setup-python@v5
         with:
           python-version: '3.x'
-      - name: Generate feed markdown
-        env:
-          FEED_URL: ${{ secrets.RSS_FEED_URL }}
-          MAX_ITEMS: 5
-        run: |
-          python3 generate_feed.py "$FEED_URL" "$MAX_ITEMS" > feed.md
-      - name: Insert feed and update date in README
-        run: |
-          # Replace everything between the markers with the new feed
+
+      - run: |
+          python3 generate_feed.py "${{ secrets.RSS_FEED_URL }}" 5 > feed.md
+
+      - run: |
           sed -e '/<!-- FEED_START -->/,/<!-- FEED_END -->/{//!d}' \
               -e '/<!-- FEED_START -->/r feed.md' \
-              README.md > new_README.md
-          
-          
-          TODAY=$(date -u +"%b %d, %Y")
-          sed -i "s/{{date}}/$TODAY/g" new_README.md
-          
-          mv new_README.md README.md
-      - name: Commit changes
-        run: |
+              README.md > README.new
+
+          if ! diff -q README.md README.new >/dev/null; then
+            TODAY=$(date -u +"%b %d, %Y")
+            sed -i "s/^Last update:.*/Last update: $TODAY/" README.new
+            mv README.new README.md
+          else
+            rm README.new
+          fi
+
+      - run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           if git diff --quiet; then
-            echo "No changes – exiting."
             exit 0
           fi
           git add README.md
