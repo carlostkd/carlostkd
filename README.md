@@ -25,11 +25,11 @@ Checkout the last Post From the blog:
 
 
 <!-- FEED_START -->
+- [Leak Detector - Firefox Extension](https://blog.carlostkd.ch/68182/leak-detector-firefox-extension) — *Dec 16, 2025*
 - [Linux Tip](https://blog.carlostkd.ch/68072/linux-tip) — *Dec 12, 2025*
 - [New Feature: One-Tap .ICS Reminders!](https://blog.carlostkd.ch/67942/new-feature-one-tap-ics-reminders) — *Dec 10, 2025*
 - [Introducing Linux Tips](https://blog.carlostkd.ch/67889/introducing-linux-tips) — *Dec 08, 2025*
 - [Introducing AI-SANY](https://blog.carlostkd.ch/66191/introducing-ai-sany) — *Oct 14, 2025*
-- [Introducing Phone Leaked Directory](https://blog.carlostkd.ch/65212/introducing-phone-leaked-directory) — *Sep 14, 2025*
 <!-- FEED_END -->
 
 *Last updated on Dec 15, 2025*
