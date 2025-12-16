@@ -22,16 +22,23 @@ jobs:
           python3 generate_feed.py "${{ secrets.RSS_FEED_URL }}" 5 > feed.md
 
       - run: |
-          sed -e '/<!-- FEED_START -->/,/<!-- FEED_END -->/{//!d}' \
-              -e '/<!-- FEED_START -->/r feed.md' \
-              README.md > README.new
+          awk '
+          BEGIN { in_feed=0 }
+          /<!-- FEED_START -->/ { in_feed=1; next }
+          /<!-- FEED_END -->/ { in_feed=0; next }
+          in_feed { print }
+          ' README.md > old_feed.md
 
-          if ! diff -q README.md README.new >/dev/null; then
+      - run: |
+          if ! diff -q old_feed.md feed.md >/dev/null; then
+            sed -e '/<!-- FEED_START -->/,/<!-- FEED_END -->/{//!d}' \
+                -e '/<!-- FEED_START -->/r feed.md' \
+                README.md > README.new
+
             TODAY=$(date -u +"%b %d, %Y")
             sed -i "s/^Last update:.*/Last update: $TODAY/" README.new
+
             mv README.new README.md
-          else
-            rm README.new
           fi
 
       - run: |
@@ -43,3 +50,4 @@ jobs:
           git add README.md
           git commit -m "🤖 Update RSS feed (auto)"
           git push origin HEAD:${{ github.ref }}
+
