@@ -20,34 +20,32 @@ jobs:
 
       - run: |
           python3 generate_feed.py "${{ secrets.RSS_FEED_URL }}" 5 > feed.md
+          sha256sum feed.md | awk '{print $1}' > feed.hash
 
       - run: |
-          awk '
-          BEGIN { in_feed=0 }
-          /<!-- FEED_START -->/ { in_feed=1; next }
-          /<!-- FEED_END -->/ { in_feed=0; next }
-          in_feed { print }
-          ' README.md > old_feed.md
+          OLD_HASH=$(grep -oE '<!-- FEED_HASH: [a-f0-9]+' README.md | awk '{print $3}')
+          NEW_HASH=$(cat feed.hash)
 
-      - run: |
-          if ! diff -q old_feed.md feed.md >/dev/null; then
-            sed -e '/<!-- FEED_START -->/,/<!-- FEED_END -->/{//!d}' \
-                -e '/<!-- FEED_START -->/r feed.md' \
-                README.md > README.new
-
-            TODAY=$(date -u +"%b %d, %Y")
-            sed -i "s/^Last update:.*/Last update: $TODAY/" README.new
-
-            mv README.new README.md
+          if [ "$OLD_HASH" = "$NEW_HASH" ]; then
+            exit 0
           fi
+
+          sed -e '/<!-- FEED_START -->/,/<!-- FEED_END -->/{//!d}' \
+              -e '/<!-- FEED_START -->/r feed.md' \
+              README.md > README.new
+
+          TODAY=$(date -u +"%b %d, %Y")
+
+          sed -i "s/^Last update:.*/Last update: $TODAY/" README.new
+          sed -i "s/<!-- FEED_HASH:.*/<!-- FEED_HASH: $NEW_HASH -->/" README.new
+
+          mv README.new README.md
 
       - run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          if git diff --quiet; then
-            exit 0
-          fi
           git add README.md
           git commit -m "🤖 Update RSS feed (auto)"
           git push origin HEAD:${{ github.ref }}
+
 
