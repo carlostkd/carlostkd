@@ -18,11 +18,18 @@ jobs:
         with:
           python-version: '3.x'
 
-      - run: |
+      - name: Generate feed
+        run: |
           python3 generate_feed.py "${{ secrets.RSS_FEED_URL }}" 5 > feed.md
           sha256sum feed.md | awk '{print $1}' > feed.hash
 
-      - run: |
+      - name: Update README
+        run: |
+          TODAY=$(date -u +"%b %d, %Y")
+
+          # Always update last update timestamp
+          sed -i "s/^Last update:.*/Last update: $TODAY/" README.md
+
           OLD_HASH=$(grep -oE '<!-- FEED_HASH: [a-f0-9]+' README.md | awk '{print $3}')
           NEW_HASH=$(cat feed.hash)
 
@@ -34,16 +41,14 @@ jobs:
               -e '/<!-- FEED_START -->/r feed.md' \
               README.md > README.new
 
-          TODAY=$(date -u +"%b %d, %Y")
-
-          sed -i "s/^Last update:.*/Last update: $TODAY/" README.new
           sed -i "s/<!-- FEED_HASH:.*/<!-- FEED_HASH: $NEW_HASH -->/" README.new
-
           mv README.new README.md
 
-      - run: |
+      - name: Commit and push
+        run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
           git add README.md
           git commit -m "🤖 Update RSS feed (auto)" || true
           git push origin HEAD:main
