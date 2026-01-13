@@ -23,16 +23,16 @@ TL;DR: I’m the guy who makes sure the right doors stay open, the wrong doors s
 Checkout the last Post From the blog:
 
 
-<!-- FEED_HASH: cd7f33b6c0b0beaba70587abb18078e454ee57d1b869f2f1be8900f183bc7262 -->
-Last update: Jan 12, 2026
+<!-- FEED_HASH: a58b1c2a9eb8be6d1363683a4f669109d0a6f1c009708962e24796fb55a31437 -->
+Last update: Jan 13, 2026
 
 
 <!-- FEED_START -->
+- [Lumo Api V2](https://blog.carlostkd.ch/69163/lumo-api-v2) — *Jan 13, 2026*
 - [Vpn Api Python App](https://blog.carlostkd.ch/68685/vpn-api-python-app) — *Dec 31, 2025*
 - [Proton Vpn Api](https://blog.carlostkd.ch/68628/proton-vpn-api) — *Dec 30, 2025*
 - [Introducing Lumo API V2](https://blog.carlostkd.ch/68611/introducing-lumo-api-v2) — *Dec 29, 2025*
 - [Proton-Vpn-Cli](https://blog.carlostkd.ch/68420/proton-vpn-cli) — *Dec 22, 2025*
-- [Leak Detector - Firefox Extension](https://blog.carlostkd.ch/68182/leak-detector-firefox-extension) — *Dec 16, 2025*
 <!-- FEED_END -->
 
 
