@@ -23,16 +23,16 @@ TL;DR: I’m the guy who makes sure the right doors stay open, the wrong doors s
 Checkout the last Post From the blog:
 
 
-<!-- FEED_HASH: 17c02d3f248c321ed6c716c34a904877050190118cb26f1f4907b52c68a57486 -->
-Last update: Mar 16, 2026
+<!-- FEED_HASH: a62d8ac048635926dec25bc046daf191b861a14693eba5888bf97fb0bda933f4 -->
+Last update: Mar 17, 2026
 
 
 <!-- FEED_START -->
+- [Angel AI Assistant](https://blog.carlostkd.ch/70991/angel-ai-assistant) — *Mar 16, 2026*
 - [voice](https://blog.carlostkd.ch/70600/voice) — *Feb 27, 2026*
 - [Introducing Lumo Chat](https://blog.carlostkd.ch/69612/introducing-lumo-chat) — *Jan 26, 2026*
 - [Lumo Api V2](https://blog.carlostkd.ch/69163/lumo-api-v2) — *Jan 13, 2026*
 - [Vpn Api Python App](https://blog.carlostkd.ch/68685/vpn-api-python-app) — *Dec 31, 2025*
-- [Proton Vpn Api](https://blog.carlostkd.ch/68628/proton-vpn-api) — *Dec 30, 2025*
 <!-- FEED_END -->
 
 
