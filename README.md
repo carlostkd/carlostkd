@@ -31,16 +31,16 @@ TL;DR: I’m the guy who makes sure the right doors stay open, the wrong doors s
 Checkout the last Post From the blog:
 
 
-<!-- FEED_HASH: 19bbd96923d0470effa1e50eb7f9a1395d7e19bee89598ec3415b6f781d0c114 -->
-Last update: Jun 20, 2026
+<!-- FEED_HASH: d5912205e6318797273f2f2ddd78bda97b4152b756e264e1d825b2c62d085c86 -->
+Last update: Jun 21, 2026
 
 
 <!-- FEED_START -->
+- [PQ SECURE MESSENGER](https://blog.carlostkd.ch/73652/pq-secure-messenger) — *Jun 20, 2026*
 - [VisionAI](https://blog.carlostkd.ch/73472/visionai) — *Jun 13, 2026*
 - [Lumo Chat Export](https://blog.carlostkd.ch/72502/lumo-chat-export) — *May 10, 2026*
 - [CyberClaw3](https://blog.carlostkd.ch/71940/cyberclaw3) — *Apr 18, 2026*
 - [Sophie AI](https://blog.carlostkd.ch/71551/sophie-ai) — *Apr 07, 2026*
-- [Angel AI Assistant](https://blog.carlostkd.ch/70991/angel-ai-assistant) — *Mar 16, 2026*
 <!-- FEED_END -->
 
 
