@@ -13,6 +13,8 @@ jobs:
 
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       - uses: actions/setup-python@v5
         with:
@@ -27,7 +29,6 @@ jobs:
         run: |
           TODAY=$(date -u +"%b %d, %Y")
 
-          # Always update last update timestamp
           sed -i "s/^Last update:.*/Last update: $TODAY/" README.md
 
           OLD_HASH=$(grep -oE '<!-- FEED_HASH: [a-f0-9]+' README.md | awk '{print $3}')
@@ -53,6 +54,5 @@ jobs:
           git commit -m "🤖 Update RSS feed (auto)" || true
           git pull --rebase origin main
           git push origin HEAD:main
-
 
 
