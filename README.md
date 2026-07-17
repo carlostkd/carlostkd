@@ -31,16 +31,16 @@ TL;DR: I’m the guy who makes sure the right doors stay open, the wrong doors s
 Checkout the last Post From the blog:
 
 
-<!-- FEED_HASH: d0c5402e8bbcc63b69747e122968031f44b6562647fee5f68a17b48a8cef1dca -->
-Last update: Jul 15, 2026
+<!-- FEED_HASH: b64aa122cd81309dbbc980de80c29a63cb3ab10b1f60a5bf854b64b2c2c044ce -->
+Last update: Jul 17, 2026
 
 
 <!-- FEED_START -->
-- [LumoDroid Private Android Assistant](https://blog.carlostkd.ch/74042/lumodroid-private-android-assistant) — *Jul 05, 2026*
-- [Lumo API KEYS](https://blog.carlostkd.ch/74019/lumo-api-keys) — *Jul 04, 2026*
-- [PQ SECURE MESSENGER](https://blog.carlostkd.ch/73652/pq-secure-messenger) — *Jun 20, 2026*
-- [VisionAI](https://blog.carlostkd.ch/73472/visionai) — *Jun 13, 2026*
-- [Lumo Chat Export](https://blog.carlostkd.ch/72502/lumo-chat-export) — *May 10, 2026*
+- [Why Your Internet Provider Knows More About You Than Your Therapist](https://carlostkd.ch/roadmap/#post-51) — *Jul 15, 2026*
+- [Why Your Phone Shouldn't Unlock Just Because You Open Your Eyes](https://carlostkd.ch/roadmap/#post-50) — *Jul 13, 2026*
+- [Netherlands Blocks US Takeover of DigiD: Or, How a Country Finally Said "Our Citizens' Data Is Not for Sale"](https://carlostkd.ch/roadmap/#post-49) — *Jul 13, 2026*
+- [After Backlash, Meta Removes Muse Image: Or, How a Tech Giant Tried to Steal Your Face, Your Children’s Likeness, and Your Dignity](https://carlostkd.ch/roadmap/#post-48) — *Jul 13, 2026*
+- [Is Cloaked Legit? An Honest Review of the Privacy App That Tries to Be Everything at Once](https://carlostkd.ch/roadmap/#post-47) — *Jul 08, 2026*
 <!-- FEED_END -->
 
 
