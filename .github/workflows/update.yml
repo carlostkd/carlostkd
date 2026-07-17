@@ -52,7 +52,6 @@ jobs:
 
           git add README.md
           git commit -m "🤖 Update RSS feed (auto)" || true
-          git pull --rebase origin main
+          git fetch origin main
+          git rebase origin/main
           git push origin HEAD:main
-
-
