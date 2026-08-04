@@ -31,16 +31,16 @@ TL;DR: I’m the guy who makes sure the right doors stay open, the wrong doors s
 Checkout the last Post From the blog:
 
 
-<!-- FEED_HASH: 055918e51d4212f645868aaa580473752be36e672f2a76b79a2d582e3efa348c -->
-Last update: Aug 03, 2026
+<!-- FEED_HASH: e42ddcd7643daed8b7fb30b340f11c531d319fc9b9107fe2417a855892eadcbb -->
+Last update: Aug 04, 2026
 
 
 <!-- FEED_START -->
+- [LumoDroid](https://blog.carlostkd.ch/75145/lumodroid) — *Aug 04, 2026*
 - [Lumo Chat Export](https://blog.carlostkd.ch/74883/lumo-chat-export) — *Jul 28, 2026*
 - [Lumo Docs](https://blog.carlostkd.ch/74685/lumo-docs) — *Jul 25, 2026*
 - [LumoDroid Private Android Assistant](https://blog.carlostkd.ch/74042/lumodroid-private-android-assistant) — *Jul 05, 2026*
 - [Lumo API KEYS](https://blog.carlostkd.ch/74019/lumo-api-keys) — *Jul 04, 2026*
-- [PQ SECURE MESSENGER](https://blog.carlostkd.ch/73652/pq-secure-messenger) — *Jun 20, 2026*
 <!-- FEED_END -->
 
 
