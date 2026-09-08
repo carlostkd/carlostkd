@@ -31,16 +31,16 @@ TL;DR: I’m the guy who makes sure the right doors stay open, the wrong doors s
 Checkout the last Post From the blog:
 
 
-<!-- FEED_HASH: 4926c6104007879be230c1cc45c41b4b0defc67cda49164fde6cb2655524de9a -->
-Last update: Sep 07, 2026
+<!-- FEED_HASH: 8fa2b2c5fc5822ee817f0e162e995a0a56671503f3a11e3ecfc31e2f81f15518 -->
+Last update: Sep 08, 2026
 
 
 <!-- FEED_START -->
+- [Lumo Docs](https://blog.carlostkd.ch/76804/lumo-docs) — *Sep 07, 2026*
 - [She Hacked You](https://blog.carlostkd.ch/76522/she-hacked-you) — *Sep 02, 2026*
 - [Eclipse Live ](https://blog.carlostkd.ch/75402/eclipse-live) — *Aug 09, 2026*
 - [Owasp LLM Inject](https://blog.carlostkd.ch/75239/owasp-llm-inject) — *Aug 06, 2026*
 - [LumoDroid](https://blog.carlostkd.ch/75145/lumodroid) — *Aug 04, 2026*
-- [Lumo Chat Export](https://blog.carlostkd.ch/74883/lumo-chat-export) — *Jul 28, 2026*
 <!-- FEED_END -->
 
 
