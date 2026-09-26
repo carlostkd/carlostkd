@@ -30,6 +30,8 @@ TL;DR: I’m the guy who makes sure the right doors stay open, the wrong doors s
 
 Checkout the last Post From the blog:
 
+![HackTheBox](https://www.hackthebox.com/badge/image/235579)
+
 
 <!-- FEED_HASH: c4e87c956f442d42ce6362419e34420483c7b79d6a596a636801f70f12641953 -->
 Last update: Sep 26, 2026
