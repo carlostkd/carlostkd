@@ -31,16 +31,16 @@ TL;DR: I’m the guy who makes sure the right doors stay open, the wrong doors s
 Checkout the last Post From the blog:
 
 
-<!-- FEED_HASH: a4f1bab165745f55c2f52c764792bd9ea13b30d2560d0a1fd3749ae6789e9852 -->
+<!-- FEED_HASH: c4e87c956f442d42ce6362419e34420483c7b79d6a596a636801f70f12641953 -->
 Last update: Sep 26, 2026
 
 
 <!-- FEED_START -->
-- [Introducing Smart Writer](https://blog.carlostkd.ch/77045/introducing-smart-writer) — *Sep 25, 2026*
-- [Nyra AI ](https://blog.carlostkd.ch/77008/nyra-ai) — *Sep 23, 2026*
-- [ProtonSync](https://blog.carlostkd.ch/76958/protonsync) — *Sep 18, 2026*
-- [Lumo Docs](https://blog.carlostkd.ch/76804/lumo-docs) — *Sep 07, 2026*
-- [She Hacked You](https://blog.carlostkd.ch/76522/she-hacked-you) — *Sep 02, 2026*
+- [Introducing Smart Writer](https://blog.carlostkd.ch/77045/introducing-smart-writer) (*Sep 25, 2026*)
+- [Introducing Smart Writer](https://stdnote.com/blog/admin/introducing-smart-writer) (*Sep 25, 2026*)
+- [Nyra AI ](https://blog.carlostkd.ch/77008/nyra-ai) (*Sep 23, 2026*)
+- [ProtonSync](https://blog.carlostkd.ch/76958/protonsync) (*Sep 18, 2026*)
+- [Lumo Docs](https://blog.carlostkd.ch/76804/lumo-docs) (*Sep 07, 2026*)
 <!-- FEED_END -->
 
 
