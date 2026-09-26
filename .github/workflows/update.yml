@@ -22,7 +22,7 @@ jobs:
 
       - name: Generate feed
         run: |
-          python3 generate_feed.py "${{ secrets.RSS_FEED_URL }}" 5 > feed.md
+          python3 generate_feed.py "${{ secrets.RSS_FEED_URL }}" "${{ secrets.RSS_FEED_URL_2 }}" 5 > feed.md
           sha256sum feed.md | awk '{print $1}' > feed.hash
 
       - name: Update README
