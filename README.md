@@ -33,16 +33,16 @@ Checkout the last Post From the blog:
 ![HackTheBox](https://www.hackthebox.com/badge/image/235579)
 
 
-<!-- FEED_HASH: 708af14eaff3864d9ff185b882f808a48f98c726c8519177a1b70a2d232eaa1b -->
-Last update: Sep 28, 2026
+<!-- FEED_HASH: dc41fe0d5eab716983ba4ba200bf82597cabac131796785ea784570244c32bb5 -->
+Last update: Sep 29, 2026
 
 
 <!-- FEED_START -->
+- [Version 18 is live](https://stdnote.com/blog/admin/version-18-is-live) (*Sep 28, 2026*)
 - [Version  .16](https://stdnote.com/blog/admin/version-16) (*Sep 26, 2026*)
 - [Blog Posts](https://stdnote.com/blog/admin/blog-posts) (*Sep 26, 2026*)
 - [Introducing Smart Writer](https://blog.carlostkd.ch/77045/introducing-smart-writer) (*Sep 25, 2026*)
 - [Introducing Smart Writer](https://stdnote.com/blog/admin/introducing-smart-writer) (*Sep 25, 2026*)
-- [Nyra AI ](https://blog.carlostkd.ch/77008/nyra-ai) (*Sep 23, 2026*)
 <!-- FEED_END -->
 
 
