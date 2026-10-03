@@ -33,16 +33,16 @@ Checkout the last Post From the blog:
 ![HackTheBox](https://www.hackthebox.com/badge/image/235579)
 
 
-<!-- FEED_HASH: dc41fe0d5eab716983ba4ba200bf82597cabac131796785ea784570244c32bb5 -->
-Last update: Oct 02, 2026
+<!-- FEED_HASH: 22cbb7df0947e216dc48e23c0cae439cbe097633a71ba9d7707b054c0c9265dc -->
+Last update: Oct 03, 2026
 
 
 <!-- FEED_START -->
+- [Post-Quantum K4li-Chat](https://stdnote.com/blog/admin/post-quantum-k4li-chat) (*Oct 02, 2026*)
 - [Version 18 is live](https://stdnote.com/blog/admin/version-18-is-live) (*Sep 28, 2026*)
 - [Version  .16](https://stdnote.com/blog/admin/version-16) (*Sep 26, 2026*)
 - [Blog Posts](https://stdnote.com/blog/admin/blog-posts) (*Sep 26, 2026*)
 - [Introducing Smart Writer](https://blog.carlostkd.ch/77045/introducing-smart-writer) (*Sep 25, 2026*)
-- [Introducing Smart Writer](https://stdnote.com/blog/admin/introducing-smart-writer) (*Sep 25, 2026*)
 <!-- FEED_END -->
 
 
