@@ -33,16 +33,16 @@ Checkout the last Post From the blog:
 ![HackTheBox](https://www.hackthebox.com/badge/image/235579)
 
 
-<!-- FEED_HASH: 603e6ac8697cc587a06ef7304c8317e127eebc4b544059376d50ba7a4d61b885 -->
-Last update: Oct 05, 2026
+<!-- FEED_HASH: 2eae7c74a22333f648c0b632a61e4e7efec524ba4f184e7299240987d0604746 -->
+Last update: Oct 06, 2026
 
 
 <!-- FEED_START -->
-- [Lumo Api Keys](https://stdnote.com/blog/admin/lumo-api-keys) (*Oct 03, 2026*)
 - [Lumo Api](https://stdnote.com/blog/admin/lumo-api) (*Oct 03, 2026*)
 - [OpenCode Session Manager](https://stdnote.com/blog/admin/opencode-session-manager) (*Oct 03, 2026*)
 - [Post-Quantum K4li-Chat](https://stdnote.com/blog/admin/post-quantum-k4li-chat) (*Oct 02, 2026*)
 - [Version 18 is live](https://stdnote.com/blog/admin/version-18-is-live) (*Sep 28, 2026*)
+- [Version  .16](https://stdnote.com/blog/admin/version-16) (*Sep 26, 2026*)
 <!-- FEED_END -->
 
 
